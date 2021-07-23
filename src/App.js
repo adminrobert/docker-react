@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        Editing React another time, now auto refresh
+        I was changed on the feature branch
       </header>
     </div>
   );

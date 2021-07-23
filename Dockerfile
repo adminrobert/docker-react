@@ -5,10 +5,10 @@ RUN chown node /home/node/app
 
 USER node
 
-COPY --chown=node:node package.json .
+COPY --chown=node:node package.json ./
 RUN npm install
 
-COPY --chown=node:node . .
+COPY --chown=node:node ./ ./
 
 RUN npm run build
 
