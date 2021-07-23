@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        Editing React another time, now auto refresh
       </header>
     </div>
   );
